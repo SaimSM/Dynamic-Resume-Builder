@@ -1,0 +1,140 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styles */
+h1 {
+    text-align: center;
+    color: #1f4f72;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #2b2b2b;
+    margin-bottom: 15px;
+}
+
+form {
+    margin-bottom: 40px;
+}
+
+/* Label Styling */
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    background-color: #f9f9f9;
+}
+
+button {
+    margin-top: 20px;
+    background-color: #1f4f72;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #166089;
+}
+
+/* Resume Preview Section Styling */
+.resume-preview {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    display: none;
+}
+
+/* Resume Header Section */
+.resume-preview h3 {
+    font-size: 28px;
+    color: #1f4f72;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.resume-preview p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.resume-preview strong {
+    color: #1f4f72;
+}
+
+/* Subheaders */
+.resume-preview h4 {
+    font-size: 22px;
+    color: #1f4f72;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    border-bottom: 2px solid #1f4f72;
+    padding-bottom: 5px;
+}
+
+/* Skills List */
+.resume-preview ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.resume-preview ul li {
+    display: inline-block;
+    background-color: #eef7ff;
+    color: #166089;
+    padding: 8px 12px;
+    margin: 4px;
+    border-radius: 6px;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+/* Flex Layout for Name and Contact */
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.contact-info p {
+    margin: 0;
+    font-size: 16px;
+    color: #666;
+}
+
+/* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;700&display=swap');
